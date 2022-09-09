@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resp>
+	<city>成都</city>
+	<updatetime>00:01</updatetime>
+	<wendu>23</wendu>
+	<fengli><![CDATA[2级]]></fengli>
+	<shidu>78%</shidu>
+	<fengxiang>东北风</fengxiang>
+	<sunrise_1>06:39</sunrise_1>
+	<sunset_1>19:29</sunset_1>
+	<sunrise_2></sunrise_2>
+	<sunset_2></sunset_2>
+	<yesterday>
+		<date_1>28日星期日</date_1>
+		<high_1>高温 28℃</high_1>
+		<low_1>低温 20℃</low_1>
+		<day_1>
+			<type_1>中雨</type_1>
+			<fx_1>东北风</fx_1>
+			<fl_1><![CDATA[3级]]></fl_1>
+		</day_1>
+		<night_1>
+			<type_1>大雨</type_1>
+			<fx_1>东北风</fx_1>
+			<fl_1><![CDATA[3级]]></fl_1>
+		</night_1>
+	</yesterday>
+<forecast>
+<weather>
+	<date>29日星期一</date>
+	<high>高温 24℃</high>
+	<low>低温 21℃</low>
+	<day>
+		<type>小雨</type>
+		<fengxiang>东北风</fengxiang>
+		<fengli><![CDATA[1级]]></fengli>
+	</day>
+	<night>
+		<type>阴</type>
+		<fengxiang>东北风</fengxiang>
+		<fengli><![CDATA[1级]]></fengli>
+	</night>
+</weather>
+<weather>
+	<date>30日星期二</date>
+	<high>高温 24℃</high>
+	<low>低温 20℃</low>
+	<day>
+		<type>小雨</type>
+		<fengxiang>西南风</fengxiang>
+		<fengli><![CDATA[2级]]></fengli>
+	</day>
+	<night>
+		<type>阴</type>
+		<fengxiang>西南风</fengxiang>
+		<fengli><![CDATA[2级]]></fengli>
+	</night>
+</weather>
+<weather>
+	<date>31日星期三</date>
+	<high>高温 24℃</high>
+	<low>低温 19℃</low>
+	<day>
+		<type>阴</type>
+		<fengxiang>南风</fengxiang>
+		<fengli><![CDATA[1级]]></fengli>
+	</day>
+	<night>
+		<type>阴</type>
+		<fengxiang>南风</fengxiang>
+		<fengli><![CDATA[1级]]></fengli>
+	</night>
+</weather>
+<weather>
+	<date>1日星期四</date>
+	<high>高温 21℃</high>
+	<low>低温 18℃</low>
+	<day>
+		<type>阴</type>
+		<fengxiang>东风</fengxiang>
+		<fengli><![CDATA[1级]]></fengli>
+	</day>
+	<night>
+		<type>多云</type>
+		<fengxiang>东风</fengxiang>
+		<fengli><![CDATA[1级]]></fengli>
+	</night>
+</weather>
+<weather>
+<date>2日星期五</date>
+<high>高温 20℃</high>
+<low>低温 17℃</low>
+<day>
+<type>小雨</type><fengxiang>东风</fengxiang><fengli><![CDATA[1级]]></fengli></day><night><type>阴</type><fengxiang>东风</fengxiang><fengli><![CDATA[1级]]></fengli></night></weather>
+</forecast>
+<zhishus>
+<zhishu>
+	<name>穿衣指数</name>
+	<value>薄款春夏装</value>
+	<detail>天气舒适，建议穿着薄款，透气的衣物。推荐：长T、长裙、长裤等。</detail>
+</zhishu>
+<zhishu>
+	<name>紫外线强度</name>
+	<value>紫外线最弱</value>
+	<detail>紫外线较弱，对人体无太大影响，放心出门哦。</detail>
+</zhishu>
+<zhishu>
+	<name>护肤指数</name>
+	<value>清洁护肤</value>
+	<detail>空气湿润度高，可以根据皮肤类型选择相应清爽型扶肤品。</detail>
+</zhishu>
+<zhishu>
+	<name>洗车指数</name>
+	<value>很不适洗车</value>
+	<detail>近日可能有降水，很不适合洗车，请等待晴天洗车，保持车子连日洁净。</detail>
+</zhishu>
+<zhishu>
+	<name>感冒指数</name>
+	<value>少发感冒</value>
+	<detail>感冒低发期，天气舒适，请注意多吃蔬菜水果，多喝水哦。</detail>
+</zhishu><zhishu>
+	<name>晾晒指数</name>
+	<value>很不适晾晒</value>
+	<detail>白天可能有降水等异常天气，不适宜晾晒。</detail>
+</zhishu>
+<zhishu>
+	<name>户外指数</name>
+	<value>很不适外出</value>
+	<detail>白天可能有降水，非常不适合户外活动，建议选择室内活动。</detail>
+</zhishu>
+<zhishu>
+	<name>污染指数</name>
+	<value>无污染</value>
+	<detail>空气很好，污染物浓度低，可在户外正常活动，对健康人群无明显影响。</detail>
+</zhishu>
+<zhishu>
+	<name>钓鱼指数</name>
+	<value>较适宜</value>
+	<detail>下雨天最考验用竿用饵的技巧。考验您技术的时候到了！</detail>
+</zhishu>
+<zhishu>
+	<name>中暑指数</name>
+	<value>不易中暑</value>
+	<detail>预计今日整体天气适中，中暑的可能性较低，无需做特殊防护。</detail>
+</zhishu>
+<zhishu>
+	<name>舒适度</name>
+	<value>较舒适</value>
+	<detail>天气温暖偏热，对于大部分人来说还是很舒适的。</detail>
+</zhishu>
+<zhishu>
+	<name>赏月指数</name>
+	<value>不适宜赏月</value>
+	<detail>今晚月亮较小，不适合赏月</detail>
+</zhishu>
+</zhishus>
+</resp><!-- 10.65.0.145(10.65.0.145):36588 ; 10.65.2.178:8080 -->

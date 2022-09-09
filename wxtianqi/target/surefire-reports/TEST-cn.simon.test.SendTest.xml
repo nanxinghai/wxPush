@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cn.simon.test.SendTest" time="14.484" tests="6" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\java\application\workspace\wxtianqi\target\test-classes;D:\java\application\workspace\wxtianqi\target\classes;D:\java\application\Maven\MyRepository\org\springframework\boot\spring-boot-starter-web\2.4.3\spring-boot-starter-web-2.4.3.jar;D:\java\application\Maven\MyRepository\org\springframework\boot\spring-boot-starter\2.4.3\spring-boot-starter-2.4.3.jar;D:\java\application\Maven\MyRepository\org\springframework\boot\spring-boot-autoconfigure\2.4.3\spring-boot-autoconfigure-2.4.3.jar;D:\java\application\Maven\MyRepository\org\springframework\boot\spring-boot-starter-logging\2.4.3\spring-boot-starter-logging-2.4.3.jar;D:\java\application\Maven\MyRepository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;D:\java\application\Maven\MyRepository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;D:\java\application\Maven\MyRepository\org\apache\logging\log4j\log4j-to-slf4j\2.13.3\log4j-to-slf4j-2.13.3.jar;D:\java\application\Maven\MyRepository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;D:\java\application\Maven\MyRepository\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar;D:\java\application\Maven\MyRepository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;D:\java\application\Maven\MyRepository\org\yaml\snakeyaml\1.27\snakeyaml-1.27.jar;D:\java\application\Maven\MyRepository\org\springframework\boot\spring-boot-starter-json\2.4.3\spring-boot-starter-json-2.4.3.jar;D:\java\application\Maven\MyRepository\com\fasterxml\jackson\core\jackson-databind\2.11.4\jackson-databind-2.11.4.jar;D:\java\application\Maven\MyRepository\com\fasterxml\jackson\core\jackson-annotations\2.11.4\jackson-annotations-2.11.4.jar;D:\java\application\Maven\MyRepository\com\fasterxml\jackson\core\jackson-core\2.11.4\jackson-core-2.11.4.jar;D:\java\application\Maven\MyRepository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.11.4\jackson-datatype-jdk8-2.11.4.jar;D:\java\application\Maven\MyRepository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.11.4\jackson-datatype-jsr310-2.11.4.jar;D:\java\application\Maven\MyRepository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.11.4\jackson-module-parameter-names-2.11.4.jar;D:\java\application\Maven\MyRepository\org\springframework\boot\spring-boot-starter-tomcat\2.4.3\spring-boot-starter-tomcat-2.4.3.jar;D:\java\application\Maven\MyRepository\org\apache\tomcat\embed\tomcat-embed-core\9.0.43\tomcat-embed-core-9.0.43.jar;D:\java\application\Maven\MyRepository\org\glassfish\jakarta.el\3.0.3\jakarta.el-3.0.3.jar;D:\java\application\Maven\MyRepository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.43\tomcat-embed-websocket-9.0.43.jar;D:\java\application\Maven\MyRepository\org\springframework\spring-web\5.3.4\spring-web-5.3.4.jar;D:\java\application\Maven\MyRepository\org\springframework\spring-beans\5.3.4\spring-beans-5.3.4.jar;D:\java\application\Maven\MyRepository\org\springframework\spring-webmvc\5.3.4\spring-webmvc-5.3.4.jar;D:\java\application\Maven\MyRepository\org\springframework\spring-context\5.3.4\spring-context-5.3.4.jar;D:\java\application\Maven\MyRepository\org\springframework\spring-expression\5.3.4\spring-expression-5.3.4.jar;D:\java\application\Maven\MyRepository\org\springframework\boot\spring-boot-starter-aop\2.4.3\spring-boot-starter-aop-2.4.3.jar;D:\java\application\Maven\MyRepository\org\springframework\spring-aop\5.3.4\spring-aop-5.3.4.jar;D:\java\application\Maven\MyRepository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;D:\java\application\Maven\MyRepository\com\github\binarywang\weixin-java-mp\3.3.0\weixin-java-mp-3.3.0.jar;D:\java\application\Maven\MyRepository\com\github\binarywang\weixin-java-common\3.3.0\weixin-java-common-3.3.0.jar;D:\java\application\Maven\MyRepository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;D:\java\application\Maven\MyRepository\com\thoughtworks\xstream\xstream\1.4.10\xstream-1.4.10.jar;D:\java\application\Maven\MyRepository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;D:\java\application\Maven\MyRepository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;D:\java\application\Maven\MyRepository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;D:\java\application\Maven\MyRepository\org\apache\httpcomponents\httpcore\4.4.14\httpcore-4.4.14.jar;D:\java\application\Maven\MyRepository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;D:\java\application\Maven\MyRepository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;D:\java\application\Maven\MyRepository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;D:\java\application\Maven\MyRepository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;D:\java\application\Maven\MyRepository\commons-io\commons-io\2.5\commons-io-2.5.jar;D:\java\application\Maven\MyRepository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;D:\java\application\Maven\MyRepository\com\google\guava\guava\20.0\guava-20.0.jar;D:\java\application\Maven\MyRepository\org\dom4j\dom4j\2.0.0\dom4j-2.0.0.jar;D:\java\application\Maven\MyRepository\jaxen\jaxen\1.2.0\jaxen-1.2.0.jar;D:\java\application\Maven\MyRepository\cn\hutool\hutool-all\5.7.16\hutool-all-5.7.16.jar;D:\java\application\Maven\MyRepository\org\springframework\boot\spring-boot-starter-jdbc\2.4.3\spring-boot-starter-jdbc-2.4.3.jar;D:\java\application\Maven\MyRepository\com\zaxxer\HikariCP\3.4.5\HikariCP-3.4.5.jar;D:\java\application\Maven\MyRepository\org\springframework\spring-jdbc\5.3.4\spring-jdbc-5.3.4.jar;D:\java\application\Maven\MyRepository\org\springframework\spring-tx\5.3.4\spring-tx-5.3.4.jar;D:\java\application\Maven\MyRepository\mysql\mysql-connector-java\8.0.23\mysql-connector-java-8.0.23.jar;D:\java\application\Maven\MyRepository\org\projectlombok\lombok\1.18.18\lombok-1.18.18.jar;D:\java\application\Maven\MyRepository\org\springframework\boot\spring-boot-test\2.4.3\spring-boot-test-2.4.3.jar;D:\java\application\Maven\MyRepository\org\springframework\boot\spring-boot\2.4.3\spring-boot-2.4.3.jar;D:\java\application\Maven\MyRepository\org\springframework\spring-test\5.3.4\spring-test-5.3.4.jar;D:\java\application\Maven\MyRepository\org\springframework\spring-core\5.3.4\spring-core-5.3.4.jar;D:\java\application\Maven\MyRepository\org\springframework\spring-jcl\5.3.4\spring-jcl-5.3.4.jar;D:\java\application\Maven\MyRepository\junit\junit\4.12\junit-4.12.jar;D:\java\application\Maven\MyRepository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;D:\java\application\Maven\MyRepository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\java\application\JAVA\jdk1.8.0_311\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\86134\AppData\Local\Temp\surefire3389310104534740072\surefirebooter5095635549915694876.jar C:\Users\86134\AppData\Local\Temp\surefire3389310104534740072 2022-09-09T17-17-14_147-jvmRun1 surefire2923478520230026288tmp surefire_07954484685326269418tmp"/>
+    <property name="surefire.test.class.path" value="D:\java\application\workspace\wxtianqi\target\test-classes;D:\java\application\workspace\wxtianqi\target\classes;D:\java\application\Maven\MyRepository\org\springframework\boot\spring-boot-starter-web\2.4.3\spring-boot-starter-web-2.4.3.jar;D:\java\application\Maven\MyRepository\org\springframework\boot\spring-boot-starter\2.4.3\spring-boot-starter-2.4.3.jar;D:\java\application\Maven\MyRepository\org\springframework\boot\spring-boot-autoconfigure\2.4.3\spring-boot-autoconfigure-2.4.3.jar;D:\java\application\Maven\MyRepository\org\springframework\boot\spring-boot-starter-logging\2.4.3\spring-boot-starter-logging-2.4.3.jar;D:\java\application\Maven\MyRepository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;D:\java\application\Maven\MyRepository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;D:\java\application\Maven\MyRepository\org\apache\logging\log4j\log4j-to-slf4j\2.13.3\log4j-to-slf4j-2.13.3.jar;D:\java\application\Maven\MyRepository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;D:\java\application\Maven\MyRepository\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar;D:\java\application\Maven\MyRepository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;D:\java\application\Maven\MyRepository\org\yaml\snakeyaml\1.27\snakeyaml-1.27.jar;D:\java\application\Maven\MyRepository\org\springframework\boot\spring-boot-starter-json\2.4.3\spring-boot-starter-json-2.4.3.jar;D:\java\application\Maven\MyRepository\com\fasterxml\jackson\core\jackson-databind\2.11.4\jackson-databind-2.11.4.jar;D:\java\application\Maven\MyRepository\com\fasterxml\jackson\core\jackson-annotations\2.11.4\jackson-annotations-2.11.4.jar;D:\java\application\Maven\MyRepository\com\fasterxml\jackson\core\jackson-core\2.11.4\jackson-core-2.11.4.jar;D:\java\application\Maven\MyRepository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.11.4\jackson-datatype-jdk8-2.11.4.jar;D:\java\application\Maven\MyRepository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.11.4\jackson-datatype-jsr310-2.11.4.jar;D:\java\application\Maven\MyRepository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.11.4\jackson-module-parameter-names-2.11.4.jar;D:\java\application\Maven\MyRepository\org\springframework\boot\spring-boot-starter-tomcat\2.4.3\spring-boot-starter-tomcat-2.4.3.jar;D:\java\application\Maven\MyRepository\org\apache\tomcat\embed\tomcat-embed-core\9.0.43\tomcat-embed-core-9.0.43.jar;D:\java\application\Maven\MyRepository\org\glassfish\jakarta.el\3.0.3\jakarta.el-3.0.3.jar;D:\java\application\Maven\MyRepository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.43\tomcat-embed-websocket-9.0.43.jar;D:\java\application\Maven\MyRepository\org\springframework\spring-web\5.3.4\spring-web-5.3.4.jar;D:\java\application\Maven\MyRepository\org\springframework\spring-beans\5.3.4\spring-beans-5.3.4.jar;D:\java\application\Maven\MyRepository\org\springframework\spring-webmvc\5.3.4\spring-webmvc-5.3.4.jar;D:\java\application\Maven\MyRepository\org\springframework\spring-context\5.3.4\spring-context-5.3.4.jar;D:\java\application\Maven\MyRepository\org\springframework\spring-expression\5.3.4\spring-expression-5.3.4.jar;D:\java\application\Maven\MyRepository\org\springframework\boot\spring-boot-starter-aop\2.4.3\spring-boot-starter-aop-2.4.3.jar;D:\java\application\Maven\MyRepository\org\springframework\spring-aop\5.3.4\spring-aop-5.3.4.jar;D:\java\application\Maven\MyRepository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;D:\java\application\Maven\MyRepository\com\github\binarywang\weixin-java-mp\3.3.0\weixin-java-mp-3.3.0.jar;D:\java\application\Maven\MyRepository\com\github\binarywang\weixin-java-common\3.3.0\weixin-java-common-3.3.0.jar;D:\java\application\Maven\MyRepository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;D:\java\application\Maven\MyRepository\com\thoughtworks\xstream\xstream\1.4.10\xstream-1.4.10.jar;D:\java\application\Maven\MyRepository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;D:\java\application\Maven\MyRepository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;D:\java\application\Maven\MyRepository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;D:\java\application\Maven\MyRepository\org\apache\httpcomponents\httpcore\4.4.14\httpcore-4.4.14.jar;D:\java\application\Maven\MyRepository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;D:\java\application\Maven\MyRepository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;D:\java\application\Maven\MyRepository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;D:\java\application\Maven\MyRepository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;D:\java\application\Maven\MyRepository\commons-io\commons-io\2.5\commons-io-2.5.jar;D:\java\application\Maven\MyRepository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;D:\java\application\Maven\MyRepository\com\google\guava\guava\20.0\guava-20.0.jar;D:\java\application\Maven\MyRepository\org\dom4j\dom4j\2.0.0\dom4j-2.0.0.jar;D:\java\application\Maven\MyRepository\jaxen\jaxen\1.2.0\jaxen-1.2.0.jar;D:\java\application\Maven\MyRepository\cn\hutool\hutool-all\5.7.16\hutool-all-5.7.16.jar;D:\java\application\Maven\MyRepository\org\springframework\boot\spring-boot-starter-jdbc\2.4.3\spring-boot-starter-jdbc-2.4.3.jar;D:\java\application\Maven\MyRepository\com\zaxxer\HikariCP\3.4.5\HikariCP-3.4.5.jar;D:\java\application\Maven\MyRepository\org\springframework\spring-jdbc\5.3.4\spring-jdbc-5.3.4.jar;D:\java\application\Maven\MyRepository\org\springframework\spring-tx\5.3.4\spring-tx-5.3.4.jar;D:\java\application\Maven\MyRepository\mysql\mysql-connector-java\8.0.23\mysql-connector-java-8.0.23.jar;D:\java\application\Maven\MyRepository\org\projectlombok\lombok\1.18.18\lombok-1.18.18.jar;D:\java\application\Maven\MyRepository\org\springframework\boot\spring-boot-test\2.4.3\spring-boot-test-2.4.3.jar;D:\java\application\Maven\MyRepository\org\springframework\boot\spring-boot\2.4.3\spring-boot-2.4.3.jar;D:\java\application\Maven\MyRepository\org\springframework\spring-test\5.3.4\spring-test-5.3.4.jar;D:\java\application\Maven\MyRepository\org\springframework\spring-core\5.3.4\spring-core-5.3.4.jar;D:\java\application\Maven\MyRepository\org\springframework\spring-jcl\5.3.4\spring-jcl-5.3.4.jar;D:\java\application\Maven\MyRepository\junit\junit\4.12\junit-4.12.jar;D:\java\application\Maven\MyRepository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;D:\java\application\Maven\MyRepository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\86134"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\java\application\JAVA\jdk1.8.0_311\jre"/>
+    <property name="basedir" value="D:\java\application\workspace\wxtianqi"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\86134\AppData\Local\Temp\surefire3389310104534740072\surefirebooter5095635549915694876.jar"/>
+    <property name="sun.boot.class.path" value="D:\java\application\JAVA\jdk1.8.0_311\jre\lib\resources.jar;D:\java\application\JAVA\jdk1.8.0_311\jre\lib\rt.jar;D:\java\application\JAVA\jdk1.8.0_311\jre\lib\sunrsasign.jar;D:\java\application\JAVA\jdk1.8.0_311\jre\lib\jsse.jar;D:\java\application\JAVA\jdk1.8.0_311\jre\lib\jce.jar;D:\java\application\JAVA\jdk1.8.0_311\jre\lib\charsets.jar;D:\java\application\JAVA\jdk1.8.0_311\jre\lib\jfr.jar;D:\java\application\JAVA\jdk1.8.0_311\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_311-b11"/>
+    <property name="user.name" value="86134"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\java\application\JAVA\jdk1.8.0_311\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\java\application\Maven\MyRepository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\86134\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2018.2.8"/>
+    <property name="java.version" value="1.8.0_311"/>
+    <property name="user.dir" value="D:\java\application\workspace\wxtianqi"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\java\application\JAVA\jdk1.8.0_311\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\other\application\Git\cmd;D:\java\application\JAVA\jdk1.8.0_311\bin;D:\java\application\Maven\apache-maven-3.3.3\bin;D:\front\application\nodejs\;D:\front\application\nodejs\node_global;;D:\front\application\mpdevtool\dll;D:\linux\application\Xshell7\;D:\linux\application\Xftp7\;F:\other\application\TortoiseSVN\bin;C:\Users\86134\AppData\Local\Microsoft\WindowsApps;F:\other\application\Bandizip\;D:\front\application\Microsoft VS Code\bin;C:\Users\86134\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.311-b11"/>
+    <property name="java.ext.dirs" value="D:\java\application\JAVA\jdk1.8.0_311\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="D:\java\application\Maven\MyRepository"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testGetYIjuhua" classname="cn.simon.test.SendTest" time="0.323"/>
+  <testcase name="testGetToken" classname="cn.simon.test.SendTest" time="1.867"/>
+  <testcase name="testSend" classname="cn.simon.test.SendTest" time="1.392"/>
+  <testcase name="testGetLocation" classname="cn.simon.test.SendTest" time="0.261"/>
+  <testcase name="test01" classname="cn.simon.test.SendTest" time="0.126"/>
+  <testcase name="testGetTianQi" classname="cn.simon.test.SendTest" time="5.435">
+    <error message="Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure&#10;&#10;The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server." type="org.springframework.jdbc.CannotGetJdbcConnectionException">org.springframework.jdbc.CannotGetJdbcConnectionException: 
+Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at cn.simon.test.SendTest.testGetTianQi(SendTest.java:57)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at cn.simon.test.SendTest.testGetTianQi(SendTest.java:57)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at cn.simon.test.SendTest.testGetTianQi(SendTest.java:57)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at cn.simon.test.SendTest.testGetTianQi(SendTest.java:57)
+</error>
+    <system-out><![CDATA[2022-09-09 17:17:28.054  INFO 19160 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-09 17:17:33.246 ERROR 19160 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477) [HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560) [HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) [HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) [HikariCP-3.4.5.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158) [spring-jdbc-5.3.4.jar:5.3.4]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116) [spring-jdbc-5.3.4.jar:5.3.4]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79) [spring-jdbc-5.3.4.jar:5.3.4]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:646) [spring-jdbc-5.3.4.jar:5.3.4]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:713) [spring-jdbc-5.3.4.jar:5.3.4]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:744) [spring-jdbc-5.3.4.jar:5.3.4]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:757) [spring-jdbc-5.3.4.jar:5.3.4]
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:886) [spring-jdbc-5.3.4.jar:5.3.4]
+	at cn.simon.dao.CityDao.getCityCode(CityDao.java:24) [classes/:na]
+	at cn.simon.dao.CityDao$$FastClassBySpringCGLIB$$55495ff0.invoke(<generated>) [classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.3.4.jar:5.3.4]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779) [spring-aop-5.3.4.jar:5.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.3.4.jar:5.3.4]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) [spring-aop-5.3.4.jar:5.3.4]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) [spring-tx-5.3.4.jar:5.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.4.jar:5.3.4]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750) [spring-aop-5.3.4.jar:5.3.4]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692) [spring-aop-5.3.4.jar:5.3.4]
+	at cn.simon.dao.CityDao$$EnhancerBySpringCGLIB$$4e9553ae.getCityCode(<generated>) [classes/:na]
+	at cn.simon.utils.TianQiUtil.getAll(TianQiUtil.java:45) [classes/:na]
+	at cn.simon.test.SendTest.testGetTianQi(SendTest.java:57) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_311]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_311]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_311]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_311]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74) [spring-test-5.3.4.jar:5.3.4]
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84) [spring-test-5.3.4.jar:5.3.4]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) [spring-test-5.3.4.jar:5.3.4]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) [spring-test-5.3.4.jar:5.3.4]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) [spring-test-5.3.4.jar:5.3.4]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251) [spring-test-5.3.4.jar:5.3.4]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.3.4.jar:5.3.4]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.3.4.jar:5.3.4]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.3.4.jar:5.3.4]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.3.4.jar:5.3.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.2.jar:2.22.2]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_311]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_311]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_311]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_311]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:953) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	... 64 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_311]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81) ~[na:1.8.0_311]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476) ~[na:1.8.0_311]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218) ~[na:1.8.0_311]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200) ~[na:1.8.0_311]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162) ~[na:1.8.0_311]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394) ~[na:1.8.0_311]
+	at java.net.Socket.connect(Socket.java:606) ~[na:1.8.0_311]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63) ~[mysql-connector-java-8.0.23.jar:8.0.23]
+	... 67 common frames omitted
+
+]]></system-out>
+  </testcase>
+</testsuite>

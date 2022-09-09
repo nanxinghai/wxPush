@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: cn.simon.test.SendTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 14.484 s <<< FAILURE! - in cn.simon.test.SendTest
+testGetTianQi(cn.simon.test.SendTest)  Time elapsed: 5.435 s  <<< ERROR!
+org.springframework.jdbc.CannotGetJdbcConnectionException: 
+Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at cn.simon.test.SendTest.testGetTianQi(SendTest.java:57)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at cn.simon.test.SendTest.testGetTianQi(SendTest.java:57)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at cn.simon.test.SendTest.testGetTianQi(SendTest.java:57)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at cn.simon.test.SendTest.testGetTianQi(SendTest.java:57)
+

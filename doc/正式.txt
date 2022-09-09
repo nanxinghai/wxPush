@@ -1,0 +1,13 @@
+早上好吖~ {{nickname.DATA}}
+{{today.DATA}}
+当前城市：{{city.DATA}}
+今日天气：{{weather.DATA}}
+今日温度：{{wendu.DATA}}
+穿衣搭配：{{chuanyi.DATA}}
+最佳日出：{{sunrise_1.DATA}}
+最佳日落：{{sunset_1.DATA}}
+你的星座：{{constell.DATA}}
+距离你的生日：{{bir.DATA}}
+	{{detail.DATA}}
+	
+	{{content.DATA}}

@@ -1,0 +1,20 @@
+感谢你的关注：{{love.DATA}}
+回复"昵称，生日",设置你的昵称和生日，例如："小二，2002-08-27"
+设置成功后，，我们早安预报将会推送如下消息：
+{{goodmorning.DATA}}
+{{enjoy.DATA}}
+{{today.DATA}}
+城市：{{city.DATA}}
+天气：{{weatherinfo.DATA}}
+温度：{{temperature.DATA}}
+风向：{{direct.DATA}}
+风级：{{power.DATA}}
+你的星座：{{constellation.DATA}}
+{{birthday.DATA}}
+
+{{context.DATA}}
+ 
+{{englishContext.DATA}}
+
+星座运势：
+	{{lucky.DATA}}

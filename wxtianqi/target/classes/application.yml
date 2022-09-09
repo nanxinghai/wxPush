@@ -1,0 +1,22 @@
+wx:
+  appID: wx641d56d264861f30
+  appsecret: 7c081de02365220207eab607558c4ebd
+  templateId: 4I8SZQQHMhAregBqicPiPtOEj_ewdoG3zEXrLeEHPZQ
+  YQtempId: 002
+tx:
+  key: HX3BZ-XMQC3-C2E3M-3AKB4-MP2IS-U4FAZ
+  SK: s2CApGqdtPtpU7lx6LSAJ8rs3Z5yYS
+tianxin:
+  key: b1b6ab8b1a70497ca6a024f500753730
+server:
+  port: 80
+logging:
+  level:
+    root: info
+    cn.simon.controller: debug
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.0.104:3306/wxmessage?characterEncoding=utf-8
+    username: root
+    password: toor

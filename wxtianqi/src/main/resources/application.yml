@@ -1,0 +1,21 @@
+wx:
+  appID: 公众号appID
+  appsecret: 公众号appsecret
+  templateId: 公众号templateId
+tx:
+  key:
+  SK:
+tianxin:
+  key: b1b6ab8b1a70497ca6a024f50075373
+server:
+  port: 80
+logging:
+  level:
+    root: info
+    cn.simon.controller: debug
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.0.104:3306/wxmessage?characterEncoding=utf-8
+    username: root
+    password: 123456
