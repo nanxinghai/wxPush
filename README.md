@@ -48,7 +48,7 @@
 
 ❓：固定类推送有什么好处/优劣吗？
 
-🙋：代码相对简单、适用于只给一个人推送消息
+🙋：代码相对简单、适用于只给一个人推送消息，简易版开源地址：[https://github.com/nanxinghai/wxPushEasy](https://github.com/nanxinghai/wxPushEasy)
 
 ###### 2、通用类推送消息
 
