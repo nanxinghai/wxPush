@@ -10,7 +10,7 @@
 
 > 通过代码编写，项目部署，能达到让用户关注改公众号后，每天定时推送（你想要的消息），例如：天气预报推送、生日推送、疫情相关数据推送（感染人数、风险地区）
 
-![image-20220904024839012](https://raw.githubusercontent.com/nanxinghai/PicGo/main/202209040248148.png)
+[![z0qk4J.md.png](https://s1.ax1x.com/2022/12/02/z0qk4J.md.png)](https://imgse.com/i/z0qk4J)
 
 上面二维码是楼主自己做的，感兴趣的话可以扫码体验体验
 
@@ -30,11 +30,11 @@
 
 [https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login](https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login)
 
-![image-20220904031113814](https://raw.githubusercontent.com/nanxinghai/PicGo/main/202209040311998.png)
+![z0qs8s.md.png](https://s1.ax1x.com/2022/12/02/z0qs8s.md.png)
 
 点击此链接，使用微信扫码登录后，会自动创建一个测试公众号，重点注意appID、appsecret（等会要用）记住自己的就行，我这里打码为了账号安全
 
-![image-20220904031326912](https://raw.githubusercontent.com/nanxinghai/PicGo/main/202209040313003.png)
+[![z0q6vq.png](https://s1.ax1x.com/2022/12/02/z0q6vq.png)](https://imgse.com/i/z0q6vq)
 
 ##### 3.2、分类
 
@@ -164,7 +164,7 @@ public class SendController {
 
 在刚刚创建好的测试公众号的页面上，会有一个二维码，用户在关注你的公众号之后，就会出现关注者的微信号，代码里面填一个就行
 
-![image-20220904035132926](https://raw.githubusercontent.com/nanxinghai/PicGo/main/202209040351035.png)
+[![z0qgK0.png](https://s1.ax1x.com/2022/12/02/z0qgK0.png)](https://imgse.com/i/z0qgK0)
 
 ❓：模板id又是什么？
 
@@ -174,11 +174,11 @@ public class SendController {
 
 🙋：在测试公众号页面，往下拉可以看到创建模板
 
-![image-20220904225414379](https://raw.githubusercontent.com/nanxinghai/PicGo/main/202209042254524.png)
+[![z0q2rV.png](https://s1.ax1x.com/2022/12/02/z0q2rV.png)](https://imgse.com/i/z0q2rV)
 
 在doc目录下有示例模板文件，在模板文件中数据域必须以.DATA结尾，模板内容写什么，就会推送什么内容给用户
 
-![image-20220905014401982](https://raw.githubusercontent.com/nanxinghai/PicGo/main/202209050144145.png)
+[![z0qfVU.png](https://s1.ax1x.com/2022/12/02/z0qfVU.png)](https://imgse.com/i/z0qfVU)
 
 写测试类测试
 
@@ -397,9 +397,9 @@ public void push(){
 
 微信公众号有一系列的接口，比如我们要用到的接受消息接口，你就可以拿到用户给你发的消息内容
 
-![image-20220907005338118](https://raw.githubusercontent.com/nanxinghai/PicGo/main/202209070053247.png)
+[![z0q7x1.png](https://s1.ax1x.com/2022/12/02/z0q7x1.png)](https://imgse.com/i/z0q7x1)
 
-![image-20220909005107579](https://raw.githubusercontent.com/nanxinghai/PicGo/main/202209090051703.png)
+[![z0qbKx.png](https://s1.ax1x.com/2022/12/02/z0qbKx.png)](https://imgse.com/i/z0qbKx)
 
 查看接口文档发现：
 
@@ -439,7 +439,7 @@ public static Map<String, String> parseXml(HttpServletRequest request) throws Ex
 
 🙋：在公众号页面可以看到填写URL选项
 
-![image-20220909010136604](https://raw.githubusercontent.com/nanxinghai/PicGo/main/202209090101745.png)
+[![z0qqr6.png](https://s1.ax1x.com/2022/12/02/z0qqr6.png)](https://imgse.com/i/z0qqr6)
 
 其中的URL便是映射到你的接口地址
 
@@ -451,9 +451,9 @@ TOKEN是随便写什么都可以，但是必须保证在验签时与之相同
 
 🙋：你可以点开公众号页面的消息接口使用指南
 
-![image-20220909010841255](https://raw.githubusercontent.com/nanxinghai/PicGo/main/202209090108363.png)
+[![z0L9xI.png](https://s1.ax1x.com/2022/12/02/z0L9xI.png)](https://imgse.com/i/z0L9xI)
 
-![image-20220909010907060](https://raw.githubusercontent.com/nanxinghai/PicGo/main/202209090109194.png)
+[![z0LAZ8.png](https://s1.ax1x.com/2022/12/02/z0LAZ8.png)](https://imgse.com/i/z0LAZ8)
 
 如图所示，微信服务器会以GET请求发送4个参数，如果加密对比相同，返回echostr随机字符串即可验签成功，如果验签失败，是不能配置URL选项的，由于你的URL必须能在公网上访问，所以在开发时可以使用内网穿透
 
